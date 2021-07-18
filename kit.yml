@@ -1,0 +1,138 @@
+######################
+#+                  +#
+#   MENU SETTINGS    #
+#+                  +#
+######################
+
+menu-settings:
+
+  # REQUIRED
+  # Appears as the title of the menu.
+  name: '&9Kits'
+
+  # REQUIRED
+  # The number of rows in the menu.
+  rows: 1
+
+  # OPTIONAL
+  # Set which commands a player can execute to open the menu.
+  command: 'kit'
+
+  # OPTIONAL
+  # How frequently the menu will be refreshed, in seconds.
+  # Useful if you have placeholders in icon descriptions.
+  auto-refresh: 5
+
+  # OPTIONAL
+  # These actions will be executed when the menu is opened.
+  # Supports all the icon action types.
+  open-actions:
+  - ''
+
+  # OPTIONAL
+  # The menu will open only when right-clicking with a compass.
+
+
+######################
+#+                  +#
+#       ICONS        #
+#+                  +#
+######################
+
+
+1:
+  COMMAND: 'kit 1'
+  NAME: '&7Kit Guerrier'
+  LORE:
+    - 'Armure en fer'
+    - 'Épée en fer'
+    - '...'
+  KEEP-OPEN: false
+  ID: 'iron_sword'
+  POSITION-X: 4
+  POSITION-Y: 1
+  
+  
+2:
+  COMMAND: 'kit 2'
+  NAME: '&6Kit Archer'
+  LORE:
+    - 'Armure en maille'
+    - 'Arc infinité'
+    - '...'
+  KEEP-OPEN: false
+  ID: 'bow'
+  POSITION-X: 5
+  POSITION-Y: 1
+  
+3:
+  COMMAND: 'kit 3'
+  NAME: '&cKit Pyromane'
+  LORE:
+    - 'Armure en maille'
+    - 'Briquet'
+    - '...'
+  KEEP-OPEN: false
+  ID: 259
+  POSITION-X: 6
+  POSITION-Y: 1
+
+4:
+  COMMAND: ''
+  NAME: ''
+  LORE:
+    - ''
+  KEEP-OPEN: true
+  ID: '160:3'
+  POSITION-X: 1
+  POSITION-Y: 1
+  
+5:
+  COMMAND: ''
+  NAME: ''
+  LORE:
+    - ''
+  KEEP-OPEN: true
+  ID: '160:3'
+  POSITION-X: 2
+  POSITION-Y: 1
+  
+6:
+  COMMAND: ''
+  NAME: ''
+  LORE:
+    - ''
+  KEEP-OPEN: true
+  ID: '160:3'
+  POSITION-X: 3
+  POSITION-Y: 1
+  
+7:
+  COMMAND: ''
+  NAME: ''
+  LORE:
+    - ''
+  KEEP-OPEN: true
+  ID: '160:3'
+  POSITION-X: 7
+  POSITION-Y: 1
+  
+8:
+  COMMAND: ''
+  NAME: ''
+  LORE:
+    - ''
+  KEEP-OPEN: true
+  ID: '160:3'
+  POSITION-X: 8
+  POSITION-Y: 1
+  
+9:
+  COMMAND: ''
+  NAME: ''
+  LORE:
+    - ''
+  KEEP-OPEN: true
+  ID: '160:3'
+  POSITION-X: 9
+  POSITION-Y: 1
