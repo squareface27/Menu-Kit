@@ -1,0 +1,47 @@
+# EssentialsX kit configuration.
+# If you don't have any kits defined in this file, the plugin will try to copy them from the config.yml
+
+# Note: All items MUST be followed by a quantity!
+# All kit names should be lower case, and will be treated as lower in permissions/costs.
+# Syntax: - name[:durability] amount [enchantment:level]... [itemmeta:value]...
+# For Item Meta information visit http://wiki.ess3.net/wiki/Item_Meta
+# To make the kit execute a command, add /<command> to the items list. Use {USERNAME} to specify the player receiving the kit.
+# {PLAYER} will show the player's displayname instead of username.
+# 'delay' refers to the cooldown between how often you can use each kit, measured in seconds.
+# Set delay to -1 for a one time kit.
+# For more information, visit http://wiki.ess3.net/wiki/Kits
+kits:
+  guerrier:
+    delay: 60
+    items:
+      - ironsword 1 name:&7Épée_du_Guerrier
+      - ironhelmet 1 name:&7Casque_du_Guerrier
+      - ironchestplate 1 name:&7Plastron_du_Guerrier
+      - ironleggings 1 name:&7Pantalon_du_Guerrier
+      - ironboots 1 name:&7Bottes_du_Guerrier
+      - steak 32
+  archer:
+    delay: 600
+    items:
+      - bow 1 infinity:1
+      - chainhelmet 1 
+      - chainchestplate 1 
+      - chainleggings 1 
+      - chainboots 1
+      - steak 32
+      - arrow 1
+      
+  pyromane:
+    delay: 60
+    items:
+      - flintandsteel 1 unbreaking:3
+      - chainhelmet 1 
+      - chainchestplate 1
+      - chainleggings 1 
+      - chainboots 1
+      - steak 32
+      
+  nourriture:
+    delay: -1    #-1 = utilisation unique
+    items:
+      - steak 64
