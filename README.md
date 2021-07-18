@@ -4,8 +4,8 @@ Le menu est compatible avec le plugin **ChestCommands** et aussi avec le plugin 
 
 
 
-*_1) Mettre le fichier kit.yml dans le dossier plugins/ChestCommands/menu
-*_2) Mettre le fichier kits.yml dans le dossier plugins/Essentials
+1) Mettre le fichier kit.yml dans le dossier plugins/ChestCommands/menu
+2) Mettre le fichier kits.yml dans le dossier plugins/Essentials
 
 
 
