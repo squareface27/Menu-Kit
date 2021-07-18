@@ -7,6 +7,6 @@ Le menu est compatible avec le plugin **ChestCommands** et aussi avec le plugin 
 
 
 
-**→Le menu est disponible avec la commande /kit →Pour toutes questions ou autres demandes, vous pouvez me contacter par MP Discord Squareface#8637
+**→Le menu est disponible avec la commande /kit →Pour toutes questions ou autres demandes, vous pouvez me contacter par MP Discord Squareface#8637**
 
-**→Vous pouvez modifier le plugin comme vous le souhaitez
+**→Vous pouvez modifier le plugin comme vous le souhaitez**
